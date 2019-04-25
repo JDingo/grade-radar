@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/grade-radar/precache-manifest.c5f922d93cf6601afb92df1e7d6351dc.js"
+  "/grade-radar/precache-manifest.6a37efc6ca4000973b33f9c314630ab1.js"
 );
 
 workbox.clientsClaim();

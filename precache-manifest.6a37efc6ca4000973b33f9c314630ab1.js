@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/grade-radar/static/js/runtime~main.72571677.js"
   },
   {
-    "revision": "f88357aa46312b7616c0",
-    "url": "/grade-radar/static/js/main.f88357aa.chunk.js"
+    "revision": "8ce35e49e2dad284171c",
+    "url": "/grade-radar/static/js/main.8ce35e49.chunk.js"
   },
   {
     "revision": "e720439cdc3590cae5f3",
     "url": "/grade-radar/static/js/1.e720439c.chunk.js"
   },
   {
-    "revision": "f88357aa46312b7616c0",
-    "url": "/grade-radar/static/css/main.28a47c86.chunk.css"
+    "revision": "8ce35e49e2dad284171c",
+    "url": "/grade-radar/static/css/main.665db023.chunk.css"
   },
   {
-    "revision": "7da70ac2eb80b7e9e703f0249e9af11b",
+    "revision": "d05fb539615d3a88ff822b0b58673c52",
     "url": "/grade-radar/index.html"
   }
 ];

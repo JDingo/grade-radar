@@ -73,7 +73,8 @@ class Chart extends React.Component {
         }
 
         /* Laskee jokaiselle osa-alueelle omat arvot, joista muodostetaan gradeList
-        gradeList-listaa käytetään kuvaajassa */
+        gradeList-listaa käytetään kuvaajassa 
+        Arvot täysin satunnaisia, eivätkä kuvaa todellisuutta*/
         const algebra = (grades[0] * 0.5 + grades[1] + grades[4] * 0.5) / 2
         const analyysi = (grades[4] + grades[5] + grades[8] + grades[12]) / 4
         const geometria = (grades[3] + grades[4] * 0.8 + grades[8] * 0.3) / 2.1

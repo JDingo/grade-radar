@@ -31,7 +31,7 @@ class Algebra extends React.Component {
 class Analyysi extends React.Component {
     render() {
         const grades = this.props.grades.slice();
-        const algebra = (grades[0] * 0.5 + grades[1] + grades[4] * 0.5) / 2
+        const analyysi = (grades[4] + grades[5] + grades[8] + grades[12]) / 4
 
         return(
             <div className="info" id="analyysi">
@@ -39,7 +39,7 @@ class Analyysi extends React.Component {
                 <div className="mathContainer" id="analyysiContainer">
                     <div className="gradeContainer">
                         <h1>Osaamisesi</h1>
-                        <p className="grade">{algebra}</p>
+                        <p className="grade">{analyysi}</p>
                     </div>
 
                     <div className="mathText">
@@ -58,7 +58,7 @@ class Analyysi extends React.Component {
 class Geometria extends React.Component {
     render() {
         const grades = this.props.grades.slice();
-        const algebra = (grades[0] * 0.5 + grades[1] + grades[4] * 0.5) / 2
+        const geometria = (grades[3] + grades[4] * 0.8 + grades[8] * 0.3) / 2.1
 
         return(
             <div className="info" id="geometria">
@@ -66,7 +66,7 @@ class Geometria extends React.Component {
                 <div className="mathContainer" id="geometriaContainer">
                     <div className="gradeContainer">
                         <h1>Osaamisesi</h1>
-                        <p className="grade">{algebra}</p>
+                        <p className="grade">{geometria}</p>
                     </div>
 
                     <div className="mathText">
@@ -85,7 +85,7 @@ class Geometria extends React.Component {
 class Todennäköisyys extends React.Component {
     render() {
         const grades = this.props.grades.slice();
-        const algebra = (grades[0] * 0.5 + grades[1] + grades[4] * 0.5) / 2
+        const todennäköisyys = (grades[0] * 0.3 + grades[9]) / 1.3
 
         return(
             <div className="info" id="todennäköisyys">
@@ -93,7 +93,7 @@ class Todennäköisyys extends React.Component {
                 <div className="mathContainer" id="todennäköisyysContainer">
                     <div className="gradeContainer">
                         <h1>Osaamisesi</h1>
-                        <p className="grade">{algebra}</p>
+                        <p className="grade">{todennäköisyys}</p>
                     </div>
 
                     <div className="mathText">
@@ -110,10 +110,7 @@ class Todennäköisyys extends React.Component {
 class Lukuteoria extends React.Component {
     render() {
         const grades = this.props.grades.slice();
-        console.log(grades)
-        console.log(grades[0] * 0.5 + grades[1] + grades[4] * 0.5)
-        const algebra = (grades[0] * 0.5 + grades[1] + grades[4] * 0.5) / 2
-        console.log(algebra)
+        const lukuteoria = grades[10]
 
         return(
             <div className="info" id="lukuteoria">
@@ -121,7 +118,7 @@ class Lukuteoria extends React.Component {
                 <div className="mathContainer" id="lukuteoriaContainer">
                     <div className="gradeContainer">
                         <h1>Osaamisesi</h1>
-                        <p className="grade">{algebra}</p>
+                        <p className="grade">{lukuteoria}</p>
                     </div>
 
                     <div className="mathText">

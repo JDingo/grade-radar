@@ -1,13 +1,13 @@
 {
   "main.css": "/grade-radar/static/css/main.28a47c86.chunk.css",
-  "main.js": "/grade-radar/static/js/main.6d8530fa.chunk.js",
-  "main.js.map": "/grade-radar/static/js/main.6d8530fa.chunk.js.map",
+  "main.js": "/grade-radar/static/js/main.f88357aa.chunk.js",
+  "main.js.map": "/grade-radar/static/js/main.f88357aa.chunk.js.map",
   "static/js/1.e720439c.chunk.js": "/grade-radar/static/js/1.e720439c.chunk.js",
   "static/js/1.e720439c.chunk.js.map": "/grade-radar/static/js/1.e720439c.chunk.js.map",
   "runtime~main.js": "/grade-radar/static/js/runtime~main.72571677.js",
   "runtime~main.js.map": "/grade-radar/static/js/runtime~main.72571677.js.map",
   "static/css/main.28a47c86.chunk.css.map": "/grade-radar/static/css/main.28a47c86.chunk.css.map",
   "index.html": "/grade-radar/index.html",
-  "precache-manifest.d9d5bc00b8c0c8ad0c6786dc1c33616f.js": "/grade-radar/precache-manifest.d9d5bc00b8c0c8ad0c6786dc1c33616f.js",
+  "precache-manifest.c5f922d93cf6601afb92df1e7d6351dc.js": "/grade-radar/precache-manifest.c5f922d93cf6601afb92df1e7d6351dc.js",
   "service-worker.js": "/grade-radar/service-worker.js"
 }

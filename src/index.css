@@ -51,6 +51,10 @@ input {
   flex-wrap: wrap;
 }
 
+.course {
+  width: 4em;
+}
+
 .grade {
   text-align: center;
   font-size: 4em;
@@ -59,6 +63,7 @@ input {
 .infoSection {
   display: flex;
   flex-direction: column;
+  margin-top: 100vh;
 }
 
 .info {
@@ -108,7 +113,6 @@ input {
 }
 
 #algebra {
-  margin-top: 100vh;
   background-color: #d81b60;
 }
 

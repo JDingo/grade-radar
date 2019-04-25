@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import {Radar} from 'react-chartjs-2';
-import {Algebra, Analyysi, Geometria, Todennäköisyys, Lukuteoria} from './info.js' // Tämä sisältää staattiset infolaatikot osa-alueista
+import {Algebra, Analyysi, Geometria, Todennakoisyys, Lukuteoria} from './info.js' // Tämä sisältää staattiset infolaatikot osa-alueista
 
 
 // React-komponentti yksittäisille input-elementille
@@ -20,7 +20,7 @@ class Form extends React.Component {
                 max="10"
                 maxLength="2"
                 className="course" 
-                value={grade}
+                defaultValue={""}
                 placeholder={placeholder}
                 onChange={(e) => this.props.onChange(e.target.value, course)}
             />
@@ -64,7 +64,7 @@ class Chart extends React.Component {
         const grades = this.props.grades.slice();
 
         for (let i = 0; i < grades.length; i++) {
-            if (!grades[i]) {
+            if (grades[i] === "") {
                 grades[i] = 4;
             } else {
                 let value = parseInt(grades[i])
@@ -138,7 +138,7 @@ class App extends React.Component {
         if (value == 1 || 4 <= value && value <= 10) {
             list[index] = value;
         } else {
-            list[index] = ""
+            list[index] = "";
         }
         this.setState({grades: list})
     }
@@ -166,7 +166,7 @@ class App extends React.Component {
                     <Geometria
                         grades={this.state.grades}
                     />
-                    <Todennäköisyys
+                    <Todennakoisyys
                         grades={this.state.grades}
                     />
                     <Lukuteoria

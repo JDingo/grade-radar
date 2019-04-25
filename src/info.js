@@ -5,7 +5,7 @@ import React from 'react';
 class Algebra extends React.Component {
     render() {
         const grades = this.props.grades.slice();
-        const algebra = (grades[0] * 0.5 + grades[1] + grades[4] * 0.5) / 2
+        const algebra = parseFloat(((grades[0] * 0.5 + grades[1] + grades[4] * 0.5) / 2).toFixed(1))
 
         return(
             <div className="info" id="algebra">
@@ -31,7 +31,7 @@ class Algebra extends React.Component {
 class Analyysi extends React.Component {
     render() {
         const grades = this.props.grades.slice();
-        const analyysi = (grades[4] + grades[5] + grades[8] + grades[12]) / 4
+        const analyysi = parseFloat(((grades[4] + grades[5] + grades[8] + grades[12]) / 4).toFixed(1));
 
         return(
             <div className="info" id="analyysi">
@@ -58,7 +58,7 @@ class Analyysi extends React.Component {
 class Geometria extends React.Component {
     render() {
         const grades = this.props.grades.slice();
-        const geometria = (grades[3] + grades[4] * 0.8 + grades[8] * 0.3) / 2.1
+        const geometria = parseFloat(((grades[3] + grades[4] * 0.8 + grades[8] * 0.3) / 2.1).toFixed(1));
 
         return(
             <div className="info" id="geometria">
@@ -82,10 +82,10 @@ class Geometria extends React.Component {
     }
 }
 
-class Todennäköisyys extends React.Component {
+class Todennakoisyys extends React.Component {
     render() {
         const grades = this.props.grades.slice();
-        const todennäköisyys = (grades[0] * 0.3 + grades[9]) / 1.3
+        const todennäköisyys = parseFloat(((grades[0] * 0.3 + grades[9]) / 1.3).toFixed(1))
 
         return(
             <div className="info" id="todennäköisyys">
@@ -110,7 +110,7 @@ class Todennäköisyys extends React.Component {
 class Lukuteoria extends React.Component {
     render() {
         const grades = this.props.grades.slice();
-        const lukuteoria = grades[10]
+        const lukuteoria = parseFloat(grades[10].toFixed(1))
 
         return(
             <div className="info" id="lukuteoria">
@@ -134,4 +134,4 @@ class Lukuteoria extends React.Component {
     }
 }
 
-export { Algebra, Analyysi, Geometria, Todennäköisyys, Lukuteoria }
+export { Algebra, Analyysi, Geometria, Todennakoisyys, Lukuteoria }
